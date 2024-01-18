@@ -1,35 +1,6 @@
 "use strict";
 
 // Chat Programm
-/*
-    Eingabefeld Login
-    Neue Registrierung? mit Ajax registrieren
-    passwort mit blabla zeichen etc.
-    Datenbank mit Benutzername und Passwort
-    Server
-    Storage
-    Mit namen begrüst werden
-    Chatfunktion
-    socket.io
-    leere nachricht nicht versenden
-    disconnect
-    abmelden button
-    Stroage löschen beim abmelden
-    scrollen
-    falsches Passwort anzeigen 
-
-    Passworteingabe mit ****
-    
-
-    hübsch aussieht 
-        Chat aufbau
-        joined nachricht hubsch machen
-        wenn nicht im local storge ist dann andere farbe und links
-   
-    
-*/
-
-
 let userSubmit = document.querySelector("#username");
 let passwordSubmit = document.querySelector("#password");
 let buttonLogin = document.querySelector("#btn-log")
