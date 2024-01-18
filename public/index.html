@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="style2.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div id="login" style="display: block;">
+        <h1>Login</h1>
+        <form id="form1" action="#">
+            <p>username</p>
+            <input type="text" id="username"><br>
+            <p>passwort</p>
+            <input type="password" id="password"><button id="show">A</button><br>
+            <button id="btn-log">Login</button><br>
+            <h4 id="btn-reg">Registrieren</h4>
+            
+        </form>
+        <h3 id="error" style="display: none;"> Fehler </h3>
+        <h3 id="wrongPasw" style="display: none;"> Falsches Passwort </h3>
+    </div>
+
+
+
+    <div id="register" style="display: none" >
+        <h1>Registrieren</h1>
+        <form id="form2"  action="http://localhost:8081/register" method="POST">
+            <p>username</p>
+            <input type="text" id="neuerusername" name="username"><br>
+            <p>passwort</p>
+            <input type="password" id="neuespasswort" name="password"><button id="show2">A</button><br>
+            <button id="btn-anm">anmelden</button>
+        </form>
+        
+            <h3 id="check" style="display: none;">Name verfügbar</h3>
+            <h3 id="exist" style="display: none;"> Nutzer schon vorhanden </h3>
+            <h3 id="leer" style="display: none;">Eingabefeld ist leer</h3>
+            <h3 id="mind" style="display: none;">Passwort muss mind. 6 Zeichen, mind. 1 Großbuchstabe mind. 1 Sonderzeichen(!@#$%^&*) und eine Zahl beeinhalten</h3>
+            
+    </div>
+
+
+
+    <div id="chat" style="display: none" >
+            <h1>Chat</h1>            
+            <button id="btn-abm" >abmelden</button>
+            <div id="message"></div>
+
+        <form id="send">            
+            <input type="text" name="eingabe" id="eingabe">
+            <button type="submit" id="send-btn">Send</button>
+            
+        </form>
+        
+    </div>
+        
+        
+    
+        
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script> 
+</body>
+</html>

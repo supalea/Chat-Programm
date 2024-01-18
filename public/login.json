@@ -1,0 +1,29 @@
+{
+    "benutzer": [
+        {
+            "username": "Lea",
+            "password": "1234",
+            "color": "#f70776"
+        },
+        {
+            "username": "Sophia",
+            "password": "4321",
+            "color": "#05EA54"
+        },
+        {
+            "username": "Nico",
+            "password": "Abcdefg!1",
+            "color": "#EB26E3"
+        },
+        {
+            "username": "Anna",
+            "password": "!gdrdhG2",
+            "color": "#28F227"
+        },
+        {
+            "username": "Steven",
+            "password": "bxfbbxH2!",
+            "color": "#16C3D3"
+        }
+    ]
+}

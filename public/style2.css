@@ -1,0 +1,186 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    
+    font-size: 30px;
+}
+
+#login{
+    border: 5px outset red;
+    width: 300px;
+    height: 400px;
+    margin:  auto;
+    text-align: center;
+    
+}
+#form1{
+    /* border: 5px outset red; */
+    margin-top: 50px;
+    margin-left:65px;
+    width: 170px;
+    
+}
+
+p{
+    /* border: 1px outset red; */
+
+text-align: left;
+align-content: flex-end;
+margin-bottom: -1px;
+}
+#show{
+    
+    right: 0;
+
+}
+
+#btn-log{
+    
+    margin-top:25px ;
+    color: rgb(0, 0, 0); 
+    font-size: 18px; 
+    line-height: 8px; 
+    padding: 10px; 
+    border-radius: 8px; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: normal; 
+    background-image: linear-gradient(to right,  rgb(255, 0, 140) 100% 0%, rgb(247, 0, 247) 50%, rgb(255, 0, 140) 100%); 
+    box-shadow: rgb(0, 0, 0) 0px 0px 10px 3px; 
+    border: 1px outset black;
+   
+   
+        
+}
+
+#btn-reg{
+    margin-top:30px;
+}
+
+#register{
+    border: 5px outset red;
+    
+    width: 300px;
+    height: 400px;
+    margin:  auto;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#form2{
+    /* border: 5px outset red; */
+    margin-top: 50px;
+    margin-left:65px;
+    width: 170px;
+}
+
+h3{
+    font-size: medium;
+    margin-top: 40px;
+    /* text-align: center; */
+    color: red;
+    position: relative;
+    
+}
+#mind{
+    font-size: 8px;
+}
+
+#btn-anm{
+    margin-top:25px ;
+    color: rgb(0, 0, 0); 
+    font-size: 18px; 
+    line-height: 8px; 
+    padding: 10px; 
+    border-radius: 8px; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: normal; 
+    background-image: linear-gradient(to right, rgb(148, 28, 164) 0%, rgb(247, 0, 247) 50%, rgb(255, 0, 140) 100%); 
+    box-shadow: rgb(0, 0, 0) 0px 0px 10px 3px; 
+    border: 1px outset black;
+   
+}
+
+#chat{
+    position: relative;
+    border: 5px outset red;
+    width: 600px;
+    height: 700px;
+    margin: 0 auto;  
+    text-align: center;
+    overflow-y: scroll;
+}
+#send{
+    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%; 
+    bottom: 0;
+}
+
+div{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#message{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+#eingabe{
+    margin-bottom: 5px;
+    width: 400px;
+}
+
+#send-btn{
+    width: 60px;
+}
+
+#btn-abm{
+    position: absolute;
+    margin-top:27px ;
+    margin-right:20px ;
+    right: 0;
+    top: 0;
+    
+}
+
+.ich{
+    /* border: 5px outset red; */
+    align-self: flex-end;
+    background-color: pink;
+    right: 0;
+    width: 200px;
+    border-radius: 8px; 
+    box-shadow: rgb(0, 0, 0) -1px 1px 5px 0px; 
+    border: 1px outset black;
+}
+
+
+.other{
+    /* border: 5px outset green; */
+    align-self: flex-start;
+    background-color: lightgreen;
+    width: 200px;
+    border-radius: 8px; 
+    box-shadow: rgb(0, 0, 0) -1px 1px 5px 0px; 
+    border: 1px outset black;
+}
+
+
+.joined{
+    background-color: gainsboro;
+    margin: auto;
+    width: 99%;
+    /* border: 1px outset black; */
+
+}
+
